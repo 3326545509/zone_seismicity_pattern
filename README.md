@@ -21,7 +21,7 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 
 * gem_active_faults.gmt && gem_active_faults_IndoAsian_Collision_Zone && gem_active_faults_SE_Asia:
     + 活动断层数据
-    + 数据来源:https://github.com/GEMScienceTools/gem-global-active-faults/blob/master/README.md
+    + 数据来源:Chan et al., 2017 https://github.com/GEMScienceTools/gem-global-active-faults/blob/master/README.md
 
 
 * 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf:
