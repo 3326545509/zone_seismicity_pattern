@@ -1,3 +1,4 @@
+#----输出文件名------
 name="2010.01.01-2022.01.01_lo:97-106_la:21-29"
 
 gmt begin $name pdf
@@ -8,7 +9,7 @@ gmt psxy -JM15c -R97/106/21/29  gadm36_CHN_Yunnan_2.gmt -W1p,white
 #gmt psxy -JM15c -R97/106/21/29  gem_active_faults_IndoAsian_Collision_Zone.gmt -W2p,black
 
 
-
+#-----在震源位置做圆, 圆半径大小表示震级大小—----
 i=1
 imax=`cat data.csv|wc -l`
 while(($i<$imax))
@@ -21,7 +22,7 @@ echo "$lo $la" | gmt plot -Sc$ra -W1.5p,cyan,solid #-W1p,black,solid -Gcyan #-By
 let i++
 done
 
-#-----标记断层
+#-----标记断层----
 gmt psxy -JM15c -R97/106/21/29  gem_active_faults_SE_Asia.gmt -W2p,black
 #-----图例-------
 gmt colorbar -Bxaf #+l"Elevation (m)"
