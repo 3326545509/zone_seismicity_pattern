@@ -9,7 +9,7 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 	+ 云南省2010.01.01-2022.01.01, 3-10级地震事件(实际上最高为6.2级)
 
 * data.csv:
-    + 纬度 经度 震级
+    + 经度 纬度 震级
 
 * data.city:
     + 云南省几个主要城市位置
