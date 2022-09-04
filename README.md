@@ -4,7 +4,8 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 ## 各文件说明:
 * 云南地震活动性性图.sh:	输入data.csv和data.city, 绘制图像
 
-* Yunnan10years.csv:	云南省2010.01.01-2022.01.01, 3-6.2级地震事件
+* Yunnan10years.csv:
+	云南省2010.01.01-2022.01.01, 3-6.2级地震事件
 
 data.csv:
     纬度 经度 震级
