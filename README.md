@@ -6,7 +6,7 @@ A seismicity pattern including fault, earthquake, administration divisions, main
  	+ 输入data.csv和data.city, 绘制图像
 
 * Yunnan10years.csv:
-	+ 云南省2010.01.01-2022.01.01, 3-6.2级地震事件
+	+ 云南省2010.01.01-2022.01.01, 3-10级地震事件(实际上最高为6.2级)
 
 * data.csv:
     + 纬度 经度 震级
