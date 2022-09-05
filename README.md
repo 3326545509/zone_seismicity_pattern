@@ -27,4 +27,4 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 * 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf:
     + 运行的输出结果
 ## 运行
-$2 CO_2 \stackrel{光}{\underset{\text{催化剂}}{\longrightarrow}}2 Fe + 3 CO_2$
+$2 CO_2 \stackrel{光}{\underset{\text{催化剂}}{-------}2 Fe + 3 CO_2$
