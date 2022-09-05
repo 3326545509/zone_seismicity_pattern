@@ -27,4 +27,9 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 * 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf<_**输出文件**_>:
     + 运行的输出结果
 ## 运行软件
-gmt6. 如要绘制其他区域的数据, 需更改行政区划和断层输入为相应的经纬度内数据. 更改sh中的省界数据、从gadm36_CHN_2.gmt中提取相应二级行政区划、从gem_active_faults.gmt中提取相应断层数据另存为数据文件
+gmt6. 如要绘制其他区域的数据, 需更改行政区划和断层输入为相应的经纬度内数据. 
+
+具体操作为:
+* 更改sh中的绘制省界数据的该行代码
+* 从gadm36_CHN_2.gmt中提取相应二级行政区划*
+* 从gem_active_faults.gmt中提取相应断层数据另存为数据文件
