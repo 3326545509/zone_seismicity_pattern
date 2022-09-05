@@ -4,7 +4,9 @@ name="2010.01.01-2022.01.01_lo:97-106_la:21-29"
 gmt begin $name pdf
 
 gmt grdimage @earth_relief_01m -JM15c -R97/106/21/29 -Baf -BWSen+t"Yunnan mag:0.27-0.62"
+#----省界限------
 gmt pscoast -JM15c -R97/106/21/29 -ECN.53+p1p,white 
+#----二级行政区划----
 gmt psxy -JM15c -R97/106/21/29  gadm36_CHN_Yunnan_2.gmt -W1p,white 
 #gmt psxy -JM15c -R97/106/21/29  gem_active_faults_IndoAsian_Collision_Zone.gmt -W2p,black
 
@@ -22,7 +24,7 @@ echo "$lo $la" | gmt plot -Sc$ra -W1.5p,cyan,solid #-W1p,black,solid -Gcyan #-By
 let i++
 done
 
-#-----标记断层----
+#-----断层----
 gmt psxy -JM15c -R97/106/21/29  gem_active_faults_SE_Asia.gmt -W2p,black
 #-----图例-------
 gmt colorbar -Bxaf #+l"Elevation (m)"
