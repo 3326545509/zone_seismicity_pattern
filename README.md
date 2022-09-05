@@ -26,5 +26,5 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 
 * 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf<输出文件>:
     + 运行的输出结果
-## 运行
+## 运行软件
 gmt6
