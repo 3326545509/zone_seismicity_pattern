@@ -27,4 +27,4 @@ A seismicity pattern including fault, earthquake, administration divisions, main
 * 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf:
     + 运行的输出结果
 ## 运行
-$2 CO_2 \stackrel{光}{\underset{\text{催化剂}}{-------}2 Fe + 3 CO_2$
+$2 data.city+data.csv+gem_active_faults_SE_Asia.gmt+adm36_CHN_2.gmt+gadm36_CHN_Yunnan_2.gmt\stackrel{云南地震活动性性图.sh}{\longrightarrow}} 2010.01.01-2022.01.01_lo/97-106_la/21-29.pdf$
