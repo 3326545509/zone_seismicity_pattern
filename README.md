@@ -2,7 +2,7 @@
 A seismicity pattern including fault, earthquake, administration divisions, main citys and inset map.
 
 ## 各文件说明:
-* 云南地震活动性性图.sh<font color=blue>运行文件</font>:	
+* 云南地震活动性性图.sh**<运行文件>**:	
  	+ 输入data.csv和data.city, 绘制图像
 
 * Yunnan10years.csv:
